@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+		
+	<link href="/stylesheets/bootstrap.min.css" rel="stylesheet" />
+	<link href="/stylesheets/signin.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/stylesheets/temp.css">
+</head>
+<body>
+
+	<div class="container">
+	<div class="blog-masthead">
+		<h3 class="text-muted">Project Name</h3>
+		<nav>
+			<ul class="nav nav-justified">
+				<li><a href="">Home</a></li>
+				<li><a href="">Projects</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Downloads</a></li>
+				<li><a href="">About</a></li>
+			</ul>
+		</nav>
+	</div>
+		<div class="page-header">
+			<h1>Bootstrap test</h1>
+			<p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+		</div>
+		<header>
+			<div class="subnav">
+				<ul class="nav nav-pills">
+					<li><a href="#">排版</a></li>
+					<li><a href="#">代码</a></li>
+					<li><a href="#">表格</a></li>
+					<li><a href="#">表单</a></li>
+					<li><a href="#">按钮</a></li>
+					<li><a href="#">图标</a></li>		
+				</ul>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col-md-4">
+				<h3>强调文字</h3>
+				<p><strong>强调</strong></p><p><em>斜体</em></p>
+			</div>
+			<div class="col-md-4">
+				<h3>强调地址</h3>
+				<address><strong>Lenovo</strong><br>
+				上海市浦东新区<br>
+				</address>
+				<address><strong>someone</strong><a href="mailto:#">lina19@lenovo.com</a></address>
+			</div>
+			<div class="col-md-4">
+				<h3>显示缩写</h3>
+				<p>使用<code>title</code>属性的缩写词会带有点状(dotted)底边线，鼠标经过时会显示带问号的箭头，并提示完整的字词信息。</p>
+				<p>
+				对缩写词元素应用 <code>.initialism</code> 会减小一号字体大小，以协调排版效果。
+	      		</p>
+	      		<p><abbr title="HyperText Markup Language" class="initialism">html</abbr></p>
+			</div>
+		</div>
+		<div>
+			<dl class="dl-horizontal">
+				<dt>Django</dt>
+				<dd>Django 是一种高级的基于python的web开发框架；
+					Django推崇一种快速,整洁而且实用主义哲学的设计及开发方式</dd>
+			</dl>
+		</div>
+		<div class="row">
+			<h3>表格</h3>
+			<div class="col-md-6">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>No</th><th>Time</th>
+						</tr>						
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>3:14</td>
+						</tr><tr>
+							<td>2</td>
+							<td>5:06</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-6">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>No</th><th>Time</th>
+						</tr>						
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>3:14</td>
+						</tr><tr>
+							<td>2</td>
+							<td>5:06</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">表单实例</div>
+			<div class="col-md-8">
+				<form action="" class="form-search">
+					<input type="text" placeholder="Input here..." class="form-input">
+					<br><input type="checkbox">Remember me
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-8">
+				<form class="form-horizontal">
+					<fieldset>
+						<legend>Add more info:</legend>
+						<div class="control-group">
+							<label for="nameInput" class="control-label">Name: </label>
+							<div class="controls"><input type="text" id="nameInput" class="input-xlarge"></div>
+						</div>
+						<div class="control-group">
+							<label for="emailInput" class="control-label">Email: </label>
+							<div class="controls"><input type="text" id="emailInput" class="input-large"></div>
+						</div>
+					</fieldset>
+				</form>
+			</div>			
+		</div>
+		<div class="row">
+			
+			<div class="col-md-6">
+				<form action="" class="form-horizontal">
+					<legend>表单控件状态</legend>
+					<div class="control-group warning">
+						<label for="focusedInput" class="control-label">已获得焦点的输入框</label>
+					<div class="controls"><input type="text" id="focusedInput" class="input-xlarge focused"></div>
+					</div>
+
+				</form>
+			</div>
+			<div class="col-md-6">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Buttons</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><button class="btn">Default "btn"</button></td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-primary">Primary "btn btn-primary"</button></td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-info">Info "btn btn-info"</button></td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-success">Success "btn btn-success"</button></td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-warning">Warning "btn btn-warning"</button></td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-danger">Danger "btn btn-danger"</button></td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-inverse">Inverse "btn btn-inverse"</button></td>
+						</tr>
+						<tr><td><a href="#" class="btn">Hyperlink button</a></td></tr>
+						
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="btn-toolbar">
+					<div class="btn-group">
+						<a href="#" class="btn">New</a>
+						<a href="#" class="btn">Edit</a>
+						<a href="#" class="btn">Delete</a>
+						<a href="#" class="btn">All</a>
+					</div>
+					
+				</div>
+
+			</div>
+			<div class="col-md-4">
+				<div class="btn-toolbar">
+					<div class="btn-group">
+						<a href="" class="btn"><i class="glyphicon glyphicon-align-left"></i></a>
+						<a href="" class="btn"><i class="glyphicon glyphicon-align-center"></i></a>
+						<a href="" class="btn"><i class="glyphicon glyphicon-align-right"></i></a>
+						<a href="" class="btn"><i class="glyphicon glyphicon-align-justify"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="btn-group">
+					<a href="" class="btn btn-primary"><i class="glyphicon glyphicon-user icon-white"></i>User</a>
+					<a href="" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"></a>
+					<ul class="dropdown-menu">
+						<li><a href=""><i class="glyphicon glyphicon-pencil"></i>Edit</a></li>
+						<li><a href=""><i class="glyphicon glyphicon-trash"></i>Delete</a></li>
+						<li><a href=""><i class="glyphicon glyphicon-ban-circle"></i>Forbidden</a></li>
+						<li class="divider"></li>
+						<li><a href=""><i class="i"></i>Admin</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<button class="btn btn-default">
+					<span class="glyphicon glyphicon-align-left"></span>
+				</button>
+			</div>
+			<div class="col-md-4"><ul class="nav nav-list">
+				<li><a href=""><i class="glyphicon glyphicon-home"></i> Home</a></li>
+				<li><a href=""><i class="glyphicon glyphicon-book"></i> 类库</a></li>
+				<li><a href=""><i class="glyphicon glyphicon-pencil"></i> Application</a></li>
+				<li><a href=""><i class="i"></i> Music</a></li>
+			</ul></div>
+			<div class="col-md-4">
+				<form action="">
+					<div class="control-group">
+						<label for="emailText" class="control-label">Email:</label>
+						<div class="controls">
+							<div class="input-prepend"><span class="add-on"><i class="glyphicon glyphicon-envelope"></i></span><input type="text" id="emailText" class="col-md-2"></div>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+	
+	<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">			
+            <a href="#" class="navbar-brand">Test</a>
+         </div>
+		<div class="navbar navbar-inverse">			
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">One</a></li>
+				<li><a href="#">Two</a></li>
+			</ul>			
+		</div>
+	</nav>
+	<!--<h1 align="center"><%=title%></h1>
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+		
+		
+	</div>
+	<div class="col-md-2"></div>
+	-->
+	<!--
+	//log in page
+	<div class="container">
+		<form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>	
+	</div>
+	-->
+	<!-- 
+	<ul>
+		<%for(var i=0;i<list.length;i++){%>
+		<li>
+			<a href='javascript:void(0)'><%=list[i]%></a>
+		</li>
+        <%}%>
+	</ul>
+	-->
+	<script type="text/javascript" src="/javascripts/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+</body>
+</html>
